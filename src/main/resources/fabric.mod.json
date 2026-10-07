@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "oldrender",
+  "version": "${version}",
+  "name": "Old Render",
+  "description": "Lightweight client-side protocol compatibility for Minecraft 1.16.5.",
+  "authors": ["Hehedev"],
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.hehedev.oldrender.OldRenderMod"
+    ]
+  },
+  "mixins": [
+    "oldrender.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.16.5",
+    "java": ">=17"
+  }
+}

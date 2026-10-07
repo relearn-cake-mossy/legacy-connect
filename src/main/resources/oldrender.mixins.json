@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.hehedev.oldrender.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientConnectionChannelInitMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
